@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JAVA PIZZA</title>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Mr+Dafoe|Nothing+You+Could+Do|Yellowtail|Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="mainh1">JAVA PIZZ🍕</h1>
+        <main> 
+        
+        <div class="section-card visible first">
+
+            <header>
+                <h1>Choose your size !!!</h1>
+            </header>
+            
+            <p> 🍕○ Personal <input type="radio" name="size" id="Personal size" data-price="279"> </p>                                                                    
+            
+            <p> 🍕○ Medium <input type="radio" name="size" id="Medium size" data-price="499"> </p>
+            
+            <p> 🍕○ Large <input type="radio" name="size" id="Large size" data-price="699"> </p>
+            
+            <p> 🍕○ Extra Large <input type="radio" name="size" id="Extra large" data-price="899"> </p>
+            
+            <button class="back">Back</button>    
+            <button class="submit">Next</button>
+                
+        </div>
+            
+        <div class="section-card">
+            <header>
+                <h1>Nice to meat you !!!</h1>
+                <figcaption> The first meat item is complimentary. All additional meat items cost ₱99 each (FREE 1(one) MEAT).</figcaption>
+            </header>
+
+            <p>🥩○ Pepperoni <input type="checkbox" name="meat" id="Pepperoni"> </p>
+            
+            <p>🥩○ Sausage <input type="checkbox" name="meat" id="Sausage"> </p>
+            
+            <p>🥩○ Canadian Bacon <input type="checkbox" name="meat" id="Canadian Bacon"> </p>
+            
+            <p>🥩○ Ground Beef <input type="checkbox" name="meat" id="Ground Beef"> </p>
+            
+            <p>🥩○ Anchovy <input type="checkbox" name="meat" id="Anchovy"> </p>
+            
+            <p>🥩○ Chicken <input type="checkbox" name="meat" id="Chicken"> </p>
+
+                <button class="back">Back</button>    
+                <button class="submit">Next</button>
+        </div>
+            
+         <div class="section-card">
+             <header>
+                 <h1>How cheesy<br>are you?</h1>
+             </header>
+             
+             <p>🧀○ Regular <input type="radio" name="cheese" id="Regular cheese"> </p>
+             
+             <p>🧀○ No cheese <input type="radio" name="cheese" id="No cheese"> </p>
+             
+             <p>🧀○ Extra Cheese <input type="radio" name="cheese" id="Extra Cheese" > </p>
+             
+             <button class="back"> Back </button>    
+             
+             <button class="submit"> Next </button>
+        </div>
+            
+        <div class="section-card">
+            <header>
+                <h1>Everyone bites<br>the crust</h1>
+            </header>
+                <p> 🍕○ Plain Crust<input type="radio" name="crust" id="Plain Crust"></p>
+                <p> 🍕○ Garlic Crust<input type="radio" name="crust" id="Garlic Butter Crust"></p>
+                <p> 🍕○ Cheese Crust<input type="radio" name="crust" id="Cheese Stuffed Crust" ></p>
+                <p> 🍕○ Spicy Crust<input type="radio" name="crust" id="Spicy Crust"></p>
+                <p> 🍕○ Special Crust<input type="radio" name="crust" id="House Special Crust"></p>
+                <button class="back">Back</button>    
+                <button class="submit">Next</button>
+        </div>
+        <div class="section-card">
+            <header>
+                <h1>Our pizzas are saucy</h1>
+            </header>
+                <p>🍾○ Marinara sauce<input type="radio" name="sauce" id="Marinara sauce"></p>
+                <p>🍾○ White sauce<input type="radio" name="sauce" id="White sauce" ></p>
+                <p>🍾○ Barbeque sauce<input type="radio" name="sauce" id="Barbeque sauce" ></p>
+                <p>🍾○ No Sauce<input type="radio" name="sauce" id="No Sauce"></p>
+                <button class="back">Back</button>    
+                <button class="submit">Next</button>
+        </div>
+        <div class="section-card last">
+            
+
+                <header>
+                    <h1>Always eat your veggies</h1>
+                    The first type of veggie is complimentary.  All additional veggie items cost ₱69 each (FREE 1(one) VEGGIES).
+                </header>
+
+                <p>🍅○ Tomatoes<input type="checkbox" name="veggies" id="Tomatoes"></p>
+                <p>🧅○ Onions<input type="checkbox" name="veggies" id="Onions"></p>
+                <p>🍈○ Olives<input type="checkbox" name="veggies" id="Olives"></p>
+                <p>🌶○ Green Peppers<input type="checkbox" name="veggies" id="Green Peppers"></p>
+                <p>🍄○ Mushrooms<input type="checkbox" name="veggies" id="Mushrooms"></p>
+                <p>🍍○ Pineapple <input type="checkbox" name="veggies" id="Pineapple"></p>
+                <p>🌿○ Spinach <input type="checkbox" name="veggies" id="Spinach"></p>
+                <p>🌶️○ Jalapeno <input type="checkbox" name="veggies" id="Jalapeno"></p>
+             <button class="back">Back</button>    
+                <button class="submit">Next</button>
+        </div>
+        <div id="tally">
+            <h1>🍕 Your Order 🍕</h1>
+        </div>
+</main>
+
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
